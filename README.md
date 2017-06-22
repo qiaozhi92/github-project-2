@@ -1,3 +1,6 @@
 # github-project-2
 this is my second github project !
-Fuck
+
+
+
+fixed bug 100 complete!
