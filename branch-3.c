@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 	int i = 0;
 	srand(time(NULL));
 
-	for(i = 0; i < 10; i++)
+	for(i = 0; i < 100; i++)
 	{
 		printf("%d  ",rand()%10 + 1);
 	}
