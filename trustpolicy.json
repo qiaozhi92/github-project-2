@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "trustPolicies": [
+        {
+            "name": "images-verify-policy",
+            "registryScopes": [ "*" ],
+            "signatureVerification": {
+                "level" : "strict" 
+            },
+            "trustStores": [ "ca:notary-cosign.easystack.io" ],
+            "trustedIdentities": [
+                "*"
+            ]
+        }
+    ]
+}
